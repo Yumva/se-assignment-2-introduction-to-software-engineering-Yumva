@@ -8,28 +8,40 @@ Answer the following questions based on your understanding of software engineeri
 Questions:
 Define Software Engineering:
 Software engineering is the systematic application engineering principles and knowledge of programming languages in design, development, testing, and maintenance of software applications
+
 What is software engineering, and how does it differ from traditional programming?
 Software engineering is the systematic application engineering principles and knowledge of programming languages in design, development, testing, and maintenance of software applications while Traditional programming refers to the conventional approach of writing code to create specific instructions for a computer to follow. It involves explicitly defining every step and condition, leaving no room for the system to learn or adapt independently
+
 Software Development Life Cycle (SDLC):
 Software Development Life Cycle (SDLC) is a structured process that enables the production of high-quality, low-cost software, in the shortest possible production time it consists of the following steps
+
 Planning & Analysis, Define Requirements, Design, Development, Testing, Deployment, Maintenance.
+
 Explain the various phases of the Software Development Life Cycle. Provide a brief description of each phase.
 1. Planning & Analysis
 The first phase of the SDLC is the project planning stage where you are gathering business requirements from your client or stakeholders. This phase is when you evaluate the feasibility of creating the product, revenue potential, the cost of production, the needs of the end-users, etc.
-2. Define Requirements
+
+3. Define Requirements
 This phase is critical for converting the information gathered during the planning and analysis phase into clear requirements for the development team. This process guides the development of several important documents: a software requirement specification (SRS) or product specification, a Use Case document, and a Requirement Traceability Matrix document.
-3. Design
+
+5. Design
 The design phase is where you put pen to paper—so to speak. The original plan and vision are elaborated into a software design document (SDD) that includes the system design, programming language, templates, platform to use, and application security measures. This is also where you can flowchart how the software responds to user actions.
-4. Development
+
+7. Development
 The actual development phase is where the development team members divide the project into software modules and turn the software requirement into code that makes the product.
-5. Testing
+
+9. Testing
 Before getting the software product out the door to the production environment, it’s important to have your quality assurance team perform validation testing to make sure it is functioning properly and does what it’s meant to do. The testing process can also help hash out any major user experience issues and security issues.
-6. Deployment
+
+10. Deployment
 During the deployment phase, your final product is delivered to your intended user. You can automate this process and schedule your deployment depending on the type. For example, if you are only deploying a feature update, you can do so with a small number of users (canary release).
-7. Maintenance
-The maintenance phase is the final stage of the SDLC if you’re following the waterfall structure of the software development process. However, the industry is moving towards a more agile software development approach where maintenance is only a stage for further improvement. 
+
+12. Maintenance
+The maintenance phase is the final stage of the SDLC if you’re following the waterfall structure of the software development process. However, the industry is moving towards a more agile software development approach where maintenance is only a stage for further improvement.
+
 Agile vs. Waterfall Models:
 The waterfall method is designed for long-term projects with predetermined timelines. The project is completed linearly, with each phase dependent on the previous one. Agile, however, uses short iterations to deliver value rapidly, allowing teams to adjust plans over time and achieve shorter time frames.
+
 Compare and contrast the Agile and Waterfall models of software development. What are the key differences, and in what scenarios might each be preferred?
 Agile Project Management
  VS
@@ -62,19 +74,29 @@ Agile works extremely well by increasing funding efficiency
 Requirements Engineering:
 What is requirements engineering? Describe the process and its importance in the software development lifecycle.
 Requirements engineering is the process of defining, documenting, and maintaining requirements. It involves activities like elicitation, analysis, specification, and verification to ensure software meets stakeholders’ needs. Proper management improves project clarity, reduces errors, and aligns expectations.
+
 As development teams work towards shorter time to market and project goals often change dynamically, software requirements engineering has become a vital element of developing innovative, high-quality solutions. Without effective software requirements management, IT projects are more susceptible to delays, errors, increasing costs and user dissatisfaction. That’s why it’s so important that all development team members – managers, engineers and testers – understand and know how to engineer requirements. 
+
 Software Design Principles:
 Explain the concept of modularity in software design. How does it improve maintainability and scalability of software systems?
 Testing in Software Engineering:
+
 Modularity is a fundamental design principle in software engineering aimed at creating software in a way that minimizes dependencies among the components of a system. This helps to localize the impact of changes, simplifies maintenance, and enhances the understandability of the system.
+
 Modularity plays a crucial role in enhancing the maintainability and scalability of software systems. By employing software modularization techniques, such as search-based optimization, clustering algorithms, and hierarchical clustering approaches, developers can extract subsystems, improve system comprehension, and remodularize source code structures. 
+
 These techniques facilitate a better understanding of system architectures, aid in software maintenance actions like refactoring, and support collaborative development efforts, especially in addressing security concerns in distributed software systems. Modularity enables the creation of well-defined components, clusters, and modules, which not only enhance readability and reusability but also allow for easier scalability as systems evolve and grow in complexity, ultimately leading to more manageable and sustainable software systems over time.
 
 Describe the different levels of software testing (unit testing, integration testing, system testing, acceptance testing). Why is testing crucial in software development?
+
 Unit testing is a software testing process for testing specific units, components, or software elements. This is the most basic type of testing, and the goal for this level of testing is to validate that each unit of code performs how it should and is free of bugs, errors, and glitches. 
+
 integration testing, which is when different software components and modules are combined and tested as a group to make sure everything is ready for the next level. Since a standard software project will likely consist of various modules, coded by multiple programmers, the goal is to test to expose potential defects or bugs between the various modules. Sometimes, this phase is referred to as I & T (integration and testing), thread testing, or string testing.
+
 system testing. This checks for a system’s compliance in accordance with the necessary given requirements. System testing inspects components like performance, load, reliability, and security with the goal of evaluating the end-to-end system specifications.
+
 acceptance testing. What makes this level different from the rest is that it’s conducted by the user or customer since the goal is to find out if the requirements have been met on delivery of the final product. Since acceptance testing is the final phase, it needs to validate the end-to-end business flow and check for things like cosmetic errors, spelling mistakes, and usability.
+
 Software testing is an incredibly crucial step for an engineering team to complete. No matter what software or product your team creates, bugs, errors, and glitches will likely occur. But those errors become less of a headache when they’re identified and solved early—that is, well before the software product delivery. When an engineering team takes the time to test software, it ensures reliability, high performance, and security, saving time and money and ensuring the customer is happy, too.
 
 Version Control Systems:
@@ -100,6 +122,7 @@ Example Platforms: GitHub, GitLab, Bitbucket.
 
 Software Project Management:
 Discuss the role of a software project manager. What are some key responsibilities and challenges faced in managing software projects?
+
 Software Maintenance:
 The role of a software project manager is crucial in overseeing the planning, execution, and delivery of software projects. Here are some key responsibilities and challenges they typically face:
 
@@ -187,6 +210,7 @@ User-Centric Design: Prioritize the interests and well-being of users in softwar
 Continuous Learning and Improvement: Engage in ongoing education and professional development to deepen your understanding of ethical issues in software engineering and stay abreast of emerging ethical challenges and solutions.
 
 Advocacy and Collaboration: Advocate for ethical practices within your organization and the broader software engineering community. Collaborate with colleagues, industry partners, and stakeholders to promote ethical standards and foster a culture of ethics and integrity in software development.
+
 Submission Guidelines:
 Your answers should be well-structured, concise, and to the point.
 Provide real-world examples or case studies wherever possible.
